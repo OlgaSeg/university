@@ -3,12 +3,14 @@
 {
     background-image:url(images/contact_bg.jpeg);
     width: 414px (max-width 515px);
+    color: $color-white;
+    font-family:$font-Garamond;
     
 }
 
 .contact .container{
 background-color: $color-bwhite;
-width: 384px;
+ width: 384px;
 height: 645px;
 
 }
@@ -16,4 +18,63 @@ input
 {
     width: 347px;
     height: 50px;
+    margin-bottom: 15px;
+    background-color: $color-blue;
+    color:$color-grey;
+    font-size: Regular;
+    font-size: 16px;
+}
+
+h3{
+    
+    font-size:36px ;
+    margin-bottom: 40px;
+   
+}
+
+p
+{
+    font-size:24px ;
+    
+}
+span
+{
+    font-size:bold;
+}
+
+.contact__contaner_yellow
+{
+    width: 414px;
+    height: 117px;
+    background-color: $color-yellow;
+}
+
+.col
+{
+    position: absolute;
+    margin:0 auto;
+    left:35px;
+    top:10px;
+
+}
+
+.contact__contaner_yellow
+{
+    position: relative;
+
+}
+.contact__contaner_blue
+{
+    background-color: $color-blue;
+    width: 250px;
+    height: 50px;
+    font-family: $font-Oswald;
+    font-size: 24px;
+    font-style: Medium;
+    text-transform:uppercase;
+    margin: 33px auto;
+}
+h4
+{
+    margin-top: 39px;
 }

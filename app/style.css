@@ -20,7 +20,9 @@ p {
 
 .contact {
   background-image: url(images/contact_bg.jpeg);
-  width: 414px max-width 515px; }
+  width: 414px max-width 515px;
+  color: #FFF;
+  font-family: "EB Garamond", sans-serif; }
 
 .contact .container {
   background-color: #4B69B1;
@@ -29,6 +31,45 @@ p {
 
 input {
   width: 347px;
-  height: 50px; }
+  height: 50px;
+  margin-bottom: 15px;
+  background-color: #34497C;
+  color: #585858;
+  font-size: Regular;
+  font-size: 16px; }
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 40px; }
+
+p {
+  font-size: 24px; }
+
+span {
+  font-size: bold; }
+
+.contact__contaner_yellow {
+  width: 414px;
+  height: 117px;
+  background-color: #FBA702; }
+
+.col {
+  position: absolute;
+  margin: 0 auto;
+  left: 35px;
+  top: 10px; }
+
+.contact__contaner_yellow {
+  position: relative; }
+
+.contact__contaner_blue {
+  background-color: #34497C;
+  width: 250px;
+  height: 50px;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-style: Medium;
+  text-transform: uppercase;
+  margin: 33px auto; }
 
 /*# sourceMappingURL=style.css.map */
