@@ -20,74 +20,44 @@ p {
 
 .contact {
   background-image: url(images/contact_bg.jpeg);
+  background-position: center-top;
   width: 414px max-width 515px;
   color: #FFF;
-  font-family: "EB Garamond", sans-serif; }
+  font-family: "EB Garamond", sans-serif;
+  padding: 70px 0; }
 
 .contact .container {
-  background-color: #4B69B1;
-  width: 384px;
-  height: 645px; }
+  background-color: #4B69B1; }
 
 input {
-  width: 347px;
-  height: 50px;
-  margin-bottom: 15px;
+  display: block;
+  width: 100%;
+  margin: 15px 0;
   background-color: #34497C;
   color: #585858;
-  font-size: Regular;
-  font-size: 16px; }
+  font-style: Regular;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 15px 30px; }
+  input:focus {
+    background-color: #1a253e; }
 
-h3 {
-  font-size: 36px;
-  margin-bottom: 40px;
-  align-items: center; }
+.contact__form_lenta {
+  background-image: url(/app/images/contact_lenta.png);
+  background-repeat: norepeat;
+  width: 100%; }
 
-p {
-  font-size: 24px; }
-
-span {
-  font-size: bold; }
-
-.contact__contaner_yellow {
-  width: 430px;
-  height: 117px;
-  left: 0;
-  top: 413px;
-  background-color: #FBA702;
-  border-bottom: 4px solid #A86F00;
-  border-top: 4px solid #A86F00;
-  padding: 17px; }
-
-.col {
-  position: absolute;
-  margin: 0 auto;
-  left: 35px;
-  top: 10px; }
-
-.contact__contaner_yellow {
-  position: relative;
-  margin-bottom: 39px;
-  position: absolute;
-  top: 0;
-  left: 0; }
-
-.contact__contaner_blue {
+button {
   background-color: #34497C;
-  width: 250px;
-  height: 50px;
   font-family: "Oswald", sans-serif;
   font-size: 24px;
   font-style: Medium;
   text-transform: uppercase;
-  margin: 33px auto;
-  position: relative;
-  align-items: center;
-  top: 39px; }
-
-h4 {
-  margin-top: 39px;
-  font-family: "EB Garamond", sans-serif;
-  font-style: bold; }
+  color: #FFF;
+  border: none;
+  outline: none;
+  margin: 17px auto;
+  padding: 27px; }
 
 /*# sourceMappingURL=style.css.map */
