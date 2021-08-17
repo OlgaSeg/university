@@ -40,7 +40,8 @@ input {
 
 h3 {
   font-size: 36px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  align-items: center; }
 
 p {
   font-size: 24px; }
@@ -49,9 +50,14 @@ span {
   font-size: bold; }
 
 .contact__contaner_yellow {
-  width: 414px;
+  width: 430px;
   height: 117px;
-  background-color: #FBA702; }
+  left: 0;
+  top: 413px;
+  background-color: #FBA702;
+  border-bottom: 4px solid #A86F00;
+  border-top: 4px solid #A86F00;
+  padding: 17px; }
 
 .col {
   position: absolute;
@@ -60,7 +66,11 @@ span {
   top: 10px; }
 
 .contact__contaner_yellow {
-  position: relative; }
+  position: relative;
+  margin-bottom: 39px;
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 .contact__contaner_blue {
   background-color: #34497C;
@@ -70,6 +80,14 @@ span {
   font-size: 24px;
   font-style: Medium;
   text-transform: uppercase;
-  margin: 33px auto; }
+  margin: 33px auto;
+  position: relative;
+  align-items: center;
+  top: 39px; }
+
+h4 {
+  margin-top: 39px;
+  font-family: "EB Garamond", sans-serif;
+  font-style: bold; }
 
 /*# sourceMappingURL=style.css.map */

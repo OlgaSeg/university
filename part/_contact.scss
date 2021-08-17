@@ -29,6 +29,7 @@ h3{
     
     font-size:36px ;
     margin-bottom: 40px;
+    align-items: center;
    
 }
 
@@ -44,9 +45,14 @@ span
 
 .contact__contaner_yellow
 {
-    width: 414px;
+    width: 430px;
     height: 117px;
+    left:0;
+    top:413px;
     background-color: $color-yellow;
+    border-bottom:4px solid $color-tyellow;
+    border-top: 4px solid $color-tyellow;
+    padding: 17px;
 }
 
 .col
@@ -61,6 +67,10 @@ span
 .contact__contaner_yellow
 {
     position: relative;
+    margin-bottom:39px;
+    position: absolute;
+    top:0;
+    left:0;
 
 }
 .contact__contaner_blue
@@ -73,8 +83,13 @@ span
     font-style: Medium;
     text-transform:uppercase;
     margin: 33px auto;
+    position: relative;
+    align-items: center;
+    top:39px;
 }
 h4
 {
     margin-top: 39px;
+    font-family:$font-Garamond;
+    font-style: bold;
 }
