@@ -1,51 +1,54 @@
-
-.contact 
-{
-    background-image:url(images/contact_bg.jpeg);
+.contact {
+    background-image: url(images/contact_bg.jpeg);
     background-position: center-top;
-    width: 414px (max-width 515px);
+    // width: 414px (max-width 515px);
     color: $color-white;
-    font-family:$font-Garamond;
-    padding:70px 0;
+    font-family: $font-Garamond;
+    padding: 70px 0;
 
-    }
-    .contact .container{
-        background-color: $color-bwhite;
-    }
-    input{
-    display:block;
+}
+
+.contact .container {
+    background-color: $color-bwhite;
+
+}
+
+input {
+    display: block;
     width: 100%;
     margin: 15px 0;
     background-color: $color-blue;
-    color:$color-grey;
+    color: $color-grey;
     font-style: Regular;
     font-size: 16px;
-    border:none;
-    outline:none;
-    padding:15px 30px;
-    &:focus
-    {
-        background-color:$color-blue / 2;
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+
+    &:focus {
+        background-color: $color-blue / 2;
     }
 
 }
-.contact__form_lenta
-{
-    background-image:url(/app/images/contact_lenta.png);
-    background-repeat:norepeat;
-    width:100%;
-    }
 
-button
-{
+.contact__form_lenta {
+    background-image: url(/app/images/contact_lenta.png);
+    background-repeat: repeat-x;
+    width: 100%;
+   
+}
+
+button {
     background-color: $color-blue;
     font-family: $font-Oswald;
     font-size: 24px;
     font-style: Medium;
-    text-transform:uppercase; 
-    color:$color-white;
-    border:none;
-    outline:none; 
-    margin: 17px auto; 
-    padding:27px; 
+    text-transform: uppercase;
+    color: $color-white;
+    border: none;
+    outline: none;
+    width: 60%;
+    margin: 17px auto;
+    padding: 27px;
+    
 }
