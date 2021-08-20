@@ -1,18 +1,13 @@
 .contact {
     background-image: url(images/contact_bg.jpeg);
     background-position: center-top;
-    // width: 414px (max-width 515px);
     color: $color-white;
     font-family: $font-Garamond;
     padding: 70px 0;
-
+    &__form_wrepper {
+        background-color: $color-bwhite;
+    }
 }
-
-.contact .container {
-    background-color: $color-bwhite;
-
-}
-
 input {
     display: block;
     width: 100%;
@@ -26,29 +21,65 @@ input {
     padding: 15px 30px;
 
     &:focus {
-        background-color: $color-blue / 2;
+        background-color: $color-blue/2;
     }
-
 }
-
 .contact__form_lenta {
     background-image: url(/app/images/contact_lenta.png);
     background-repeat: repeat-x;
-    width: 100%;
-   
+    margin-left: -30px;
+    margin-right: -30px;
+    overflow: hidden;
+    position: relative;
+
+@include sm
+{
+    &::after
+    {
+        content:" ";
+        display:block;
+        width: 0;
+        height: 0;
+        margin:0 auto;
+        border: solid 15px $color-tyellow;
+        position: absolute;
+       
+    }
+    &::before
+    {
+        content:" ";
+        display:block;
+        width: 0;
+        height: 0;
+        margin:0 auto;
+        border: solid 15px $color-tyellow;
+        position: absolute;
+        
+    }
 }
 
+}
 button {
     background-color: $color-blue;
     font-family: $font-Oswald;
     font-size: 24px;
-    font-style: Medium;
+    font-weight: Medium;
     text-transform: uppercase;
     color: $color-white;
     border: none;
     outline: none;
-    width: 60%;
-    margin: 17px auto;
-    padding: 27px;
-    
+    display: block;
+    padding: 14px;
+    margin: 27px auto;
 }
+p {
+    font-size: 24px;
+    margin: 20px 18px 53px;
+    font-weight: 700;
+    text-align: center;
+ }
+ h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight:bold;
+ }

@@ -7,7 +7,8 @@
 body {
   font-family: "EB Garamond", sans-serif;
   font-size: 16px;
-  font-style: Regular; }
+  font-style: Regular;
+  line-height: 1,5em; }
 
 p {
   margin: 0; }
@@ -24,9 +25,8 @@ p {
   color: #FFF;
   font-family: "EB Garamond", sans-serif;
   padding: 70px 0; }
-
-.contact .container {
-  background-color: #4B69B1; }
+  .contact__form_wrepper {
+    background-color: #4B69B1; }
 
 input {
   display: block;
@@ -45,19 +45,50 @@ input {
 .contact__form_lenta {
   background-image: url(/app/images/contact_lenta.png);
   background-repeat: repeat-x;
-  width: 100%; }
+  margin-left: -30px;
+  margin-right: -30px;
+  overflow: hidden;
+  position: relative; }
+  @media screen and (min-width: 576px) {
+    .contact__form_lenta::after {
+      content: " ";
+      display: block;
+      width: 0;
+      height: 0;
+      margin: 0 auto;
+      border: solid 15px #A86F00;
+      position: absolute; }
+    .contact__form_lenta::before {
+      content: " ";
+      display: block;
+      width: 0;
+      height: 0;
+      margin: 0 auto;
+      border: solid 15px #A86F00;
+      position: absolute; } }
 
 button {
   background-color: #34497C;
   font-family: "Oswald", sans-serif;
   font-size: 24px;
-  font-style: Medium;
+  font-weight: Medium;
   text-transform: uppercase;
   color: #FFF;
   border: none;
   outline: none;
-  width: 60%;
-  margin: 17px auto;
-  padding: 27px; }
+  display: block;
+  padding: 14px;
+  margin: 27px auto; }
+
+p {
+  font-size: 24px;
+  margin: 20px 18px 53px;
+  font-weight: 700;
+  text-align: center; }
+
+h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
